@@ -1,4 +1,8 @@
-# VGA Display State Machine
+# FPGA Lab 4 — VGA Display State Machine
+
+**Verilog · Finite-State Machines · VGA · RGB565**
+
+Former repository name: `FPGA4`.
 
 A Verilog display controller switches between color bars, MUST lettering, and an END screen. The project combines a three-state controller, coordinate-based rendering, and RGB565 VGA output. 三状态 VGA 显示控制项目。
 
@@ -42,7 +46,6 @@ bash scripts/run_simulation.sh
 
 The source maps `a` to reset and `s` to the screen-selection button. Full desktop execution remains to be checked: the original `clk_divider` has no reset/initial value, and the C++ viewer's raster assumptions need to be matched against the timing module. The repository does not include board constraints or hardware timing reports.
 
-
-[Full project portfolio](https://github.com/chengmiao2005/FPGAfinalproject/blob/main/docs/PORTFOLIO.md) · [Original-to-current file map](docs/FILE_MAP.md)
+[FPGA lab index](https://github.com/chengmiao2005/FPGA-Labs) · [Original-to-current file map](docs/FILE_MAP.md)
 
 [Validation record](docs/VALIDATION.md)
